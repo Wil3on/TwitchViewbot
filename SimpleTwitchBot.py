@@ -1,13 +1,13 @@
 import concurrent.futures, time, random, os
 
 #desired channel url
-channel_url = 'https://www.twitch.tv/yourchannelname'
+channel_url = 'https://www.twitch.tv/wils3on'
 #number of viewer bots
 botcount = 10
 #path to proxies.txt file
 proxypath = "C:\Proxy\proxy.txt"
 #path to vlc
-playerpath = r'"C:\Program Files\VideoLAN\VLC\vlc.exe"'
+playerpath = r'"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"'
 
 #takes proxies from proxies.txt and returns to list
 def create_proxy_list(proxyfile, shared_list):
